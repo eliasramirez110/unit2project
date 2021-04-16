@@ -1,0 +1,17 @@
+{
+  "name": "ecomstore",
+  "version": "1.0.0",
+  "description": "app to sell stuff online",
+  "main": "app.js", 
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Elias Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "stripe": "^8.143.0"
+  }
+} 
